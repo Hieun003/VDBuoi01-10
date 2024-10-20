@@ -1,7 +1,8 @@
 package com.example.btvd;
 
-public class Mycontact {
-    int imageID;
+import java.io.Serializable;
+
+public class Mycontact implements Serializable {
     String name;
     String phone;
 
@@ -15,17 +16,8 @@ public class Mycontact {
     }
 
     public Mycontact(int imageID, String name, String phone) {
-        this.imageID = imageID;
         this.name = name;
         this.phone = phone;
-    }
-
-    public int getImageID() {
-        return imageID;
-    }
-
-    public void setImageID(int imageID) {
-        this.imageID = imageID;
     }
 
     public String getName() {

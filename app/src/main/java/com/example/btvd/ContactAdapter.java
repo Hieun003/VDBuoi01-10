@@ -53,7 +53,6 @@ public class ContactAdapter extends ArrayAdapter<Mycontact> {
         }
         //lay ra doi tuong mycontact tai vi tri position
         Mycontact contact = getItem(position);
-        ImageView imgContact = currentView.findViewById(R.id.imgphone);
         TextView txtName = currentView.findViewById(R.id.txtname);
         TextView txtPhone = currentView.findViewById(R.id.txtphone);
         Button btnCall = currentView.findViewById(R.id.btnCall);
@@ -84,7 +83,6 @@ public class ContactAdapter extends ArrayAdapter<Mycontact> {
         });
         //data Bind imageView
         assert contact!=null;
-        imgContact.setImageResource(contact.getImageID());
         return currentView;
     }
 }

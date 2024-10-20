@@ -3,14 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-
-    <ImageView
-        android:id="@+id/imgphone"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        tools:srcCompat="@tools:sample/avatars" />
+    android:layout_height="100dp">
 
     <TextView
         android:id="@+id/txtname"
@@ -42,7 +35,6 @@
             android:id="@+id/btnSendtext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50px"
             android:text="Button" />
     </LinearLayout>
 </LinearLayout>
